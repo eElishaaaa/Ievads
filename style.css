@@ -14,4 +14,17 @@ p {
       .p1 {
         font-family: "Lucida Handwriting", Times, serif;
       }
+      .kastite {
+        width: 15em;
+        border: 1px solid #333;
+        padding: 8px 80px;
+        text-align: center;
+        background-image: linear-gradient(180deg, rgb(179, 12, 12), rgb(255, 255, 255) 50%, rgb(175, 27, 27));
+      }
+      div {
+        width: 800px;
+        border: 15px solid white;
+        padding: 50px;
+        margin: 20px;
+      }
     
