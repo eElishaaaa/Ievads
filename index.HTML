@@ -39,8 +39,17 @@
         
      </div>
         
+<script>//f-cija, kas pēc navigācijas pogas nospiešanas atver atbilstošo klasi un paslēpj pārējās
+ function nodala(sadalasID) {
+     var i;
+     var x = document.getElementsByClassName("sadala");
+     for (i = 0; i < x.length; i++) { 
+        x[i].style.display = "none"; //visiem uzliek stilu neredzams
+     }
+     document.getElementById(sadalasID).style.display = "block"; //blokam ar attiecīgo id nosaukumu nomaina stilu uz redzams 
+ }
+ </script>
 
-     
 
 
 
